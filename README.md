@@ -161,10 +161,10 @@ This section is reserved for general performance tips and strategies that I hope
 
 ASP.NET Web Forms behind the scenes is actually a mature and performant technology and it's compositional development model is still a good fit for developing internal LOB applications. My issue with it is that I consider it to be an **anti-web** technology, where its thick view-state and post-backs for everything prohibits the inherent caching benefits in HTTP and encourages poor web development practices. I'm not denying that you can fight against the grain and make ASP.NET apps perform well, but I am recommending the move to the shinier and newer web frameworks from Microsoft in [asp.net/mvc](http://www.asp.net/mvc) and [asp.net/webmatrix](http://www.asp.net/webmatrix). 
 
+Whilst on ASP.NET if you are making heavy use of Sessions you're likely to run into this [degrading performance issue](http://stackoverflow.com/questions/3629709/i-just-discovered-why-all-asp-net-websites-are-slow-and-i-am-trying-to-work-out) - check the link for potential fixes. I dodge this issue by avoiding ASP.NET sessions completely by making use of my [caching providers](https://github.com/ServiceStack/ServiceStack/wiki/Caching).
+
 #### OWIN
 Note worty: a new vibrant effort is underway in **[OWIN](https://github.com/owin/gate/wiki)** driven by many devs in pro web devs in the .NET web community to create a new HTTP abstractions inspired from Ruby's Rack and Python's Paste frameworks - so [watch this space](https://github.com/owin/gate/wiki)!
-
-Whilst on ASP.NET if you are making heavy use of Sessions you're likely to run into this [degrading performance issue](http://stackoverflow.com/questions/3629709/i-just-discovered-why-all-asp-net-websites-are-slow-and-i-am-trying-to-work-out) - check the link for potential fixes. I dodge this issue by avoiding ASP.NET sessions completely by making use of my [caching providers](https://github.com/ServiceStack/ServiceStack/wiki/Caching).
 
 ### Blobbing in RDBMS's
 
