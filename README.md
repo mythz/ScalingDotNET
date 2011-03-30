@@ -38,7 +38,7 @@ I also like to coin this the **Google approach** where in all their strategic pr
 	
 	Avoid premature optimizations where un-necessary and focus on Macro-level optimizations
 
-Some people developers generally preach that you should never prematurely optimize, however I'm more of the mind that since you're already writing code, think about how often this piece of code gets run and optimize accordingly. In practice this means I never optimize one-off code yet spend considerable effort speeding up my serializers where any improvement has the potential to improve all my services. You don't know when your head is going be back in the space you're currently in so a decent effort at efficient code (without hacks) is not a bad idea.
+Many developers generally preach that you should never prematurely optimize, however I'm more of the mind that since you're already writing code, think about how often this piece of code gets run and optimize accordingly. In practice this means I never optimize one-off code yet spend considerable effort speeding up my serializers where any improvement has the potential to improve all my services. You don't know when your head is going be back in the space you're currently in so a decent effort at efficient code (without hacks) is not a bad idea.
 
 With that said, if you're developing an ajax app, something like [Page Speed](http://code.google.com/speed/page-speed/) that tests the complete end-user experience is invaluable to visualize where the areas of optimization will yield the most value. 
 
