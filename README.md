@@ -46,7 +46,7 @@ By Macro optimizations I mean, making use of a CDN, taking advantage of ETags to
 
 
 ### Numbers everyone should know
-This **[list is so important](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)** that they should be in the forefront of developers minds (if it matters in what they do ofcourse) **before** they develop software: 
+This **[list is so important](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)** that they should be in the forefront of developers minds (if it matters in what they do of course) **before** they develop software: 
 
 Operation                           | Time (nsec)
 ---------------------------------   | -----------
@@ -106,7 +106,7 @@ Whether or not this technology produces some non-blocking servers from Microsoft
 #### The node.js revolution
 For devs who are unaware of the [node.js](http://nodejs.org) revolution happening right now on Unix platforms, it primarily has to do with being able to build high-performance, non-blocking network servers trivially with simple JavaScript. Which once coupled with one of the fastest JavaScript runtimes in V8 (thanks largely to the Arms race amongst the major browser vendors to produce the fastest js implementation) provides developers un-precedented power to create runtimes previously prohibitively impossible to develop but for an elite few C/C++ wizards.
 
-For those interested for a glimpse into this new world, here are some enlighening videos I recommend watching:
+For those interested for a glimpse into this new world, here are some enlightening videos I recommend watching:
  
   * [Ryan Dahl: Introduction to NodeJS](http://www.yuiblog.com/blog/2010/05/20/video-dahl/)
   * [Douglas Crockford: on JavaScript - Loopage](http://developer.yahoo.com/yui/theater/video.php?v=crockford-loopage)
