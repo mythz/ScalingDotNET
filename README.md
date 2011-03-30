@@ -136,9 +136,9 @@ If for whatever reason you're unable to batch your calls then the best way to mi
 
 I will leave this short because it largely doesn't affect the general .NET populace but for those that do it's still a very important topic and requires further investigation. Effectively polling/pull-based systems are generally less efficient then their event-driven, push-based counterparts. Not only will it result in more IO requests and resources to achieve the same result, but it can also longate the total time to complete a multi-hop request, quite substantially. If you're connecting disperate systems together within the same network than you should be evaluating whether the use of message queues will ultimately provide a superior solution. One book that I recommend reading on this topic which explains the benefits of a messaging approach is [Enterprise Integration Patterns](http://www.eaipatterns.com/eaipatterns.html). Unfortunately even though the use of messaging is a common practice in the Java world, it is often an overlooked discipline in the .NET world. I generally attribute this mainly to the limited capabilities of Microsoft's MSMQ and the resulting weak attention and focus it gets next to Microsoft's premier WCF/ASP.NET technologies. However as this remains an important technology I'll provide links 
 
-	* [RabbitMQ](http://www.rabbitmq.com/) - Open source, popular and the highly regarded AMQP implementation
-	* [NServiceBus](http://www.nservicebus.com/) - Provides many of the missing add-on features on top of MSMQ. Now turned commercial but has a free licence.
-	* [MQ in WCF](http://msdn.microsoft.com/en-us/library/ms731089.aspx) - The MQ endpoint in WCF
+  * [RabbitMQ](http://www.rabbitmq.com/) - Open source, popular and the highly regarded AMQP implementation
+  * [NServiceBus](http://www.nservicebus.com/) - Provides many of the missing add-on features on top of MSMQ. Now turned commercial but has a free licence.
+  * [MQ in WCF](http://msdn.microsoft.com/en-us/library/ms731089.aspx) - The MQ endpoint in WCF
 
 Other worthy mentions are the expensive but are long-time leaders in this space from [Tibco](http://www.tibco.com/company/news/releases/2003/press587.jsp) and [IBM](http://www.redbooks.ibm.com/abstracts/sg247012.html). I'll also note the other popular Open source option [ActiveMQ](http://activemq.apache.org/) but due to the issues resulting from the immature .NET clients I've personally witnessed at 2 major companies that I've worked at, I'm not recommending its use for .NET.
 
@@ -148,11 +148,10 @@ Outside of the network boundaries of the corporate intranet, polling over HTTP l
 
 This topic is too broad to be able to cover in any meaningful way in a short passage so I'm not even going to try. Since NoSQL solutions has more to do with scaling than performance I may cover the .NET story in a future article, that is, if I ever finish writing this one :). Suffice to say that nearly every popular site operating at **Internet Scale** (ref: Web 2.0 buzzwords) is not using an RDBMS. This is likely not going to be you but if your RDBMS is proving to be the bottleneck you may want to research the technology. Here are some starting points:
 
-	* [NoSQL on WikiPedia](http://en.wikipedia.org/wiki/NoSQL) - Definition of NoSQL on WikiPedia
-	* [nosql-database.org](http://nosql-database.org/) - An entire site devoted to the technology
-	* [highscalability.com](http://highscalability.com) - Resources on scaling in the real-world w/ large % of NoSQL usages
-	* [NoSQL at Twitter](http://www.slideshare.net/kevinweil/nosql-at-twitter-nosql-eu-2010) - Great and entertaining intro on how NoSQL is used at Twitter.
-
+  * [NoSQL on WikiPedia](http://en.wikipedia.org/wiki/NoSQL) - Definition of NoSQL on WikiPedia
+  * [nosql-database.org](http://nosql-database.org/) - An entire site devoted to the technology
+  * [highscalability.com](http://highscalability.com) - Resources on scaling in the real-world w/ large % of NoSQL usages
+  * [NoSQL at Twitter](http://www.slideshare.net/kevinweil/nosql-at-twitter-nosql-eu-2010) - Great and entertaining intro on how NoSQL is used at Twitter.
 
 ## General Tips and Strategies
 
