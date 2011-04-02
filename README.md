@@ -1,3 +1,4 @@
+
 ﻿# Making .NET a Star Performer
 
 This page is in response to Robert Scoble's declaration that the [death spiral of MySpace can be attributed to their bet on the Microsoft technology stack](http://scobleizer.com/2011/03/24/myspaces-death-spiral-due-to-bets-on-los-angeles-and-microsoft/), specifically .NET. As a developer with an interest in developing high-performance scalable systems using C# I've learned a few things in my research on what makes systems perform and scale well which is what I'd like to share to the wider .NET world. In order to keep this document palatable and provide the most value I will try to stick to point form and link to various topics and articles with the intention for this to serve as a jump page into your own research. 
@@ -155,9 +156,12 @@ This topic is too broad to be able to cover in any meaningful way in a short pas
 
 **(Full Text) Search**
 
-Jumping from the realm of relational databases into the realm of "crazy" NoSQL datastores before knowing the true scale of your application can be seen as a form of premature optimization. Always remember even Twitter and Facebook started on MySql. Having said that, if your application/website needs search on any level, getting to know a dedicated search engine provider and implementing it sooner rather then later might save some sever heartaches.
+Although the NoSQL world can offer performance, scalability and productivity enhancements, you needn't leave the comfort zone of your RDBMS as an [agressive caching strategy](http://highscalability.com/blog/2011/3/3/stack-overflow-architecture-update-now-at-95-million-page-vi.html) and [good servers](http://highscalability.com/plentyoffish-architecture) can support event the largest loads and remember even Facebook started on MySQL. 
+
+Having said that, if your application/website needs search on any level your likely to hit full-text search limits built-into your RDBMS, so getting to know a dedicated search engine provider and implementing it sooner rather then later might save some sever heartaches.
 
   * [Lucene.NET](http://lucene.apache.org/lucene.net/) - .NET port of [Lucene](http://lucene.apache.org/), a brilliant opensource java full text search engine library. StackOverflow might be the most famous [Lucene.NET implementers](http://blog.stackoverflow.com/2011/01/stack-overflow-search-now-81-less-crappy/) after getting fed up with MSSQL's limited full text capabilities.
+  * [Sphinx](http://sphinxsearch.com/) - Sphinx is an open source full text search server, designed from the ground up with performance, relevance (aka search quality), and integration simplicity in mind. [.NET client available](http://code.google.com/p/sphinx-dotnet-client/)
   * [Solr](http://lucene.apache.org/solr/) - Where Lucene is the engine, Solr is the server. Solr extends the raw power of Lucene with an XMLRPC based web interface adding many stemmers, tokenizers and analyzers. [SolrNet is a mature client](https://github.com/mausch/SolrNet) for .NET well worth checking out.
   * [ElasticSearch](http://www.elasticsearch.org/) - ElasticSearch is a REST based search engine also based on Lucene. It competes with Solr in the same area but being relative new means it's feels more polished in certain area's where in some it may still has to play catch up to Solr. Speed of development is astonishing though. Currently has two not very mature clients [ElasticSearch.NET](https://github.com/medcl/ElasticSearch.Net) and [NEST](https://github.com/Mpdreamz/NEST).
   * [Riak Search](http://wiki.basho.com/Riak-Search.html) - Deserves a mention.
