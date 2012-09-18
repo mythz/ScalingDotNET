@@ -196,4 +196,4 @@ I think I'll wrap it up here, I hope this had covered the main areas that I thin
 
 ### Contributions Welcome!
 
-If you are an interested .NET developer and want to contribute to this page I invite you to fork this project and send me pull requests to this effect, otherwise feel free to send tweets to **[@demisbellot](http://twitter.com/demisbellot)** on twitter or drop me an email at **demis.bellot@gmail.com**.
+If you are an interested .NET developer and want to contribute to this page I invite you to fork this project and send me pull requests to this effect, otherwise feel free to send tweets to **[@demisbellot](http://twitter.com/demisbellot)** on twitter.
