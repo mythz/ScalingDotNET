@@ -167,7 +167,7 @@ Having said that, if your application/website needs to search on any level you'r
   * [ElasticSearch](http://www.elasticsearch.org/) - ElasticSearch is a REST based search engine also based on Lucene. It competes with Solr in the same area but being relative new means it's feels more polished in certain area's where in some it may still has to play catch up to Solr. Speed of development is astonishing though. Currently has two not very mature clients [ElasticSearch.NET](https://github.com/medcl/ElasticSearch.Net) and [NEST](https://github.com/Mpdreamz/NEST).
   * [Riak Search](http://wiki.basho.com/Riak-Search.html) - Deserves a mention.
 
-It's rather important to note that Lucene.NET is not as actively maintained any more and is at risk of losing it's incubator status over at the Apache Software Foundation. Losing a native high performance full text search library IS a major loss for the .NET develop'o'sphere. Choosing for the Java based Solr or ElasticSearch servers for the moment give you the benefit of the most performance Lucene implementation and both have .NET clients.
+It's important to note that, although for some time the Lucene.NET project was not actively developed, since July 2011 development is restarted and the features and overall progress are quite on par with the original Java version.
 
 ## General Tips and Strategies
 
