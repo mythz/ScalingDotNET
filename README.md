@@ -23,9 +23,9 @@ There are various research studies as to how the slightest change to performance
 
 -- [Brad Adams](http://twitter.com/#!/brada/status/42339108521115648) (Current Google employee, former Microsoft project manager and co-author of .NET Framework Design Guidelines)
 
-[![@brada on speed](http://www.servicestack.net/img/fredwilson-speed.png)](http://thinkvitamin.com/web-apps/fred-wilsons-10-golden-principles-of-successful-web-apps/)
+[![@brada on speed](http://www.servicestack.net/img/fredwilson-speed.png)](http://blog.mashape.com/post/44118215209/10-golden-principles-of-successful-web-applic)
 
--- [Fred Wilson’s 10 Golden Principles of Successful Web Apps](http://thinkvitamin.com/web-apps/fred-wilsons-10-golden-principles-of-successful-web-apps/)
+-- [Fred Wilson’s 10 Golden Principles of Successful Web Apps](http://blog.mashape.com/post/44118215209/10-golden-principles-of-successful-web-applic)
 
 
 ## What to look for at a high-level
