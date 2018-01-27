@@ -19,11 +19,11 @@ Needless to say that the usability and utility of said software meant that no-on
 
 There are various research studies as to how the slightest change to performance / load times can have a dramatic effect on users perception and continued use of your software. One thing I will say is that a common trait shared by all top internet properties is that they load fast and provide instant utility. With that said I will close this section off with my favourite quotes on the topic:
 
-[![@brada on speed](http://www.servicestack.net/img/brada-speed.png)](http://twitter.com/#!/brada/status/42339108521115648)
+[![@brada on speed](http://mono.servicestack.net/img/brada-speed.png)](http://twitter.com/#!/brada/status/42339108521115648)
 
 -- [Brad Adams](http://twitter.com/#!/brada/status/42339108521115648) (Current Google employee, former Microsoft project manager and co-author of .NET Framework Design Guidelines)
 
-[![@brada on speed](http://www.servicestack.net/img/fredwilson-speed.png)](http://blog.mashape.com/post/44118215209/10-golden-principles-of-successful-web-applic)
+[![@brada on speed](http://mono.servicestack.net/img/fredwilson-speed.png)](http://blog.mashape.com/post/44118215209/10-golden-principles-of-successful-web-applic)
 
 -- [Fred Wilson’s 10 Golden Principles of Successful Web Apps](http://blog.mashape.com/post/44118215209/10-golden-principles-of-successful-web-applic)
 
